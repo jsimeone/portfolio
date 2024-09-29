@@ -1,5 +1,6 @@
 <script>
     import Button from "$lib/components/Button.svelte";
+    import {base} from "$app/paths";
 </script>
 
 <div class="h-screen flex items-center justify-center animate-fade">
@@ -11,13 +12,13 @@
         <nav>
             <ul class="flex gap-y-7 flex-wrap space-x-4 m-4 justify-center">
                 <li>
-                    <Button href="/projects" text="Projects"/>
+                    <Button href="{base}/projects" text="Projects"/>
                 </li>
                 <li>
-                    <Button href="/resume724.pdf" text="Resume"/>
+                    <Button href="{base}/resume724.pdf" text="Resume"/>
                 </li>
                 <li>
-                    <Button href="/leadership" text="Leadership"/>
+                    <Button href="{base}/leadership" text="Leadership"/>
                 </li>
             </ul>
         </nav>
@@ -28,7 +29,7 @@
             <a href="https://www.instagram.com/simeone_joe/profilecard/?igsh=ZmIzaGtkdGUxNDl0">
                 <img class="size-8 md:size-10" alt="Instagram icon" src="instagram.webp"/>
             </a>
-            <a class="size-8 md:size-10" href="www.linkedin.com/in/josephsimeone">
+            <a class="size-8 md:size-10" href="https://www.linkedin.com/in/josephsimeone">
                 <img alt="LinkedIn icon" src="linkedin.webp"/>
             </a>
         </div>
