@@ -5,9 +5,9 @@
 
 <Header title="Projects"/>
 <div class="px-10 py-5 animate-fade">
-    <p class="text-secondary font-semibold pb-3 mx-1">Everything I make solves an issue for someone in my life. I have
-        the most passion for solutions that impact real people.</p>
-    <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-10">
+<!--    <p class="text-secondary font-semibold pb-3 mx-1">Everything I make solves an issue for someone in my life. I have-->
+<!--        the most passion for solutions that impact real people.</p>-->
+    <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-7">
         <Project link="https://fanstandapp.com" imageSource="fanstand.png" imageAlt="Fanstand logo" date="2023-Present"
                  title="Fanstand"
                  description="Fanstand is a platform that enables schools to reward attendance at campus events. I started Fanstand and its parent company 201 Interactive in November of 2023 and have since brought on teammates to help expand and build our next product. Fanstand is currently deployed at Hamilton College with over 400 active users representing over 20% of the college's population. New features are released every few weeks!"/>
