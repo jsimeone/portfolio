@@ -15,7 +15,7 @@
                     <Button href="{base}/projects" text="Projects"/>
                 </li>
                 <li>
-                    <Button href="{base}/resume724.pdf" text="Resume"/>
+                    <Button href="{base}/resume102324.pdf" text="Resume"/>
                 </li>
                 <li>
                     <Button href="{base}/leadership" text="Leadership"/>
